@@ -9,20 +9,20 @@ public class Main {
         Battle b = new Battle();
 
         Pokemon[] allies = {
-                new exmp.pokemons.Beheeyem("Bob", 30),
-                new exmp.pokemons.Chesnaught("Zen", 20),
-                new exmp.pokemons.Chespin("Zinc", 40),
-                new exmp.pokemons.Elgyem("Doodle", 20),
-                new exmp.pokemons.Magearna("Double", 40),
-                new exmp.pokemons.Quilladin("Hydra", 70)
+                new exmp.pokemons.Beheeyem("Nelson", 40),
+                new exmp.pokemons.Chesnaught("Mata", 20),
+                new exmp.pokemons.Chespin("Priya", 15),
+                new exmp.pokemons.Elgyem("Seren", 40),
+                new exmp.pokemons.Magearna("Fabio", 40),
+                new exmp.pokemons.Quilladin("Andre", 73)
         };
         Pokemon[] foes = {
-                new exmp.pokemons.Beheeyem("Ben", 30),
-                new exmp.pokemons.Chesnaught("Zoom", 20),
-                new exmp.pokemons.Chespin("Zetta", 40),
-                new exmp.pokemons.Elgyem("Debby", 20),
-                new exmp.pokemons.Magearna("Doom", 40),
-                new exmp.pokemons.Quilladin("Howl", 70)
+                new exmp.pokemons.Beheeyem("Brett", 40),
+                new exmp.pokemons.Chesnaught("Kelly", 25),
+                new exmp.pokemons.Chespin("Zackary", 15),
+                new exmp.pokemons.Elgyem("Daniyal", 25),
+                new exmp.pokemons.Magearna("Milly", 45),
+                new exmp.pokemons.Quilladin("Vera", 70)
         };
 
         for(Pokemon ally : allies)
