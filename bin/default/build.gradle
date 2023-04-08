@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs "libs"
+    }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation 'ru.ifmo.se.pokemon:Pokemon:1.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+sourceSets.main.java.srcDirs = ['src/main/java/exmp', 'src/main/java/exmp/pokemons', 'src/main/java/exmp/moves']
+mainClassName = 'exmp.Main'
+compileJava.options.encoding = 'UTF-8'
